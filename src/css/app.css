@@ -1,0 +1,105 @@
+:root {
+    font-family: monospace;
+}
+
+.ol-attribution {
+    left: 5px;
+    bottom: 5px;
+    position: absolute;
+  }
+
+  .ol-attribution button {
+      display: none;
+  }
+
+
+.table tr[data-href]:hover {
+    background-color: #cccccc;
+}
+
+.certificate-card {     
+    display: inline-block;
+    width: 200px;
+}
+
+.certificate-card .certificate-card-issuer {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.certificate-card .certificate-card-participant {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.certificate-card > img{  
+    width: 100%;
+}
+
+.certificate-card > .certificate-card-arc{
+    top: 40px; right: 0; left: 0; letter-spacing: -0.1em;
+}
+
+#course-participant-list > .list-group-item {
+    white-space: nowrap;
+    width: 100%;
+    line-height: 1.15;
+}
+
+/* Checkbox for certificate issue page */
+#course-participant-list > .list-group-item .issue-participant-checkbox {
+    position: absolute;
+    margin-top: 4px;
+}
+
+
+#course-participant-list > .list-group-item .checkbox-label {
+    width: 100%;
+    padding-left: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0 !important;
+}
+
+
+#course-participant-list .participant-remove-button {
+    position: absolute;
+    right: 10px;
+}
+
+#course-participant-list .participant-item {
+    width: 100%;
+    padding-right: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0 !important;
+}
+
+#search-results .card-header button {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+#account-info li{
+    width: 200px;
+    padding: 5px;
+    background: none;
+    line-height: 8px;
+    text-align: left;
+    font-size: small;
+
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0 !important;
+}
